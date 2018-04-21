@@ -1,0 +1,7 @@
+.logPanel {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  grid-area: log;
+  overflow-y: scroll;
+}

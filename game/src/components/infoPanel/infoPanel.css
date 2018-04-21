@@ -1,0 +1,37 @@
+.infoPanel {
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 1.3em;
+  grid-area: info;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: 
+    'heading heading'
+    'left right'
+    'left right'
+    'left right'
+    'left right'
+    'left right'
+}
+
+.heading {
+  grid-area: heading;
+}
+
+.left {
+  grid-area: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.right {
+  grid-area: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
