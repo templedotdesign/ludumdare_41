@@ -9,7 +9,7 @@ import classes from './logPanel.css'
 
 const logPanel = (props) => {
   return (
-    <div className={classes.logPanel}>
+    <div id='log' className={classes.logPanel}>
       {props.log.map((x, index) => {
         return (
           <Wrapper>

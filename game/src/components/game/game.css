@@ -6,7 +6,7 @@
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(2, 1fr) 50px;
   grid-template-areas: 
-  'log map'
+  'log buildings'
   'log info'
   'input input'; 
 }

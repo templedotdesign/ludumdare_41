@@ -1,16 +1,16 @@
-.infoPanel {
+.buildingsPanel {
   border: 1px solid white;
-  padding: 5px;
+  padding: 10px;
   border-radius: 5px;
-  text-align: center;
-  font-size: 1.3em;
-  grid-area: info;
+  /* text-align: center; */
+  font-size: 1.1em;
+  grid-area: buildings;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(7, 1fr);
   grid-template-areas: 
     'heading heading'
-    'pop     pop'
+    'left    right'
     'left    right'
     'left    right'
     'left    right'
@@ -20,11 +20,7 @@
 
 .heading {
   grid-area: heading;
-}
-
-.pop {
-  grid-area: pop;
-  padding-top: 10px;
+  text-align: center;
 }
 
 .left {
@@ -40,4 +36,3 @@
   flex-direction: column;
   justify-content: space-around;
 }
-
